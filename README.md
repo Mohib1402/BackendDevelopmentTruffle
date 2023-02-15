@@ -22,7 +22,7 @@ Instructions for running the Application:
 5. Click the "Send" button to send a GET request to the /items endpoint.
 Postman will display the server's response in the "Response" panel. You should see an empty JSON array, like this:
 
-[]
+      []
 
 This indicates that the server received your GET request and responded with an empty array, since there are no medical bills created yet.
 
@@ -32,25 +32,25 @@ This indicates that the server received your GET request and responded with an e
 
 8. In the editor, paste the following JSON payload:
 
-{
-  "patientName": "John Doe",
-  "patientAddress": "123 Main St",
-  "hospitalName": "St. Mary's Hospital",
-  "dateOfService": "2023-02-14",
-  "billAmount": 1000
-}
+      {
+        "patientName": "John Doe",
+        "patientAddress": "123 Main St",
+        "hospitalName": "St. Mary's Hospital",
+        "dateOfService": "2023-02-14",
+        "billAmount": 1000
+      }
 
 9. Click the "Send" button to send the POST request to the /items endpoint.
 
 10. Postman will display the server's response in the "Response" panel. You should see a JSON object representing the newly created medical bill, like this:
 
-{
-  "patientName": "John Doe",
-  "patientAddress": "123 Main St",
-  "hospitalName": "St. Mary's Hospital",
-  "dateOfService": "2023-02-14",
-  "billAmount": 1000
-}
+      {
+        "patientName": "John Doe",
+        "patientAddress": "123 Main St",
+        "hospitalName": "St. Mary's Hospital",
+        "dateOfService": "2023-02-14",
+        "billAmount": 1000
+      }
 
 11. To verify that the medical bill was actually created, send another GET request to the /items endpoint by clicking the "Send" button again in the "GET /items" tab. This time, the response should contain an array with the medical bill object that you just created.
 
