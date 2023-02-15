@@ -24,7 +24,7 @@ Postman will display the server's response in the "Response" panel. You should s
 
       []
 
-This indicates that the server received your GET request and responded with an empty array, since there are no medical bills created yet.
+      This indicates that the server received your GET request and responded with an empty array, since there are no medical bills created yet.
 
 6. To create a new medical bill, switch the request type from "GET" to "POST" using the dropdown menu next to the URL field.
 
