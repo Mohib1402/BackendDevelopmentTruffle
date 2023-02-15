@@ -4,6 +4,7 @@ BackendDevelopmentAssessment
 Instructions for running the Application:
 
 1. Clone the repository from github using the below command:
+
       git clone https://github.com/Mohib1402/BackendDevelopmentTruffle.git
       
 2. Once the repository is cloned, use the terminal or command-line to get into the BackendDevelopmentTruffle directory using the below command:
